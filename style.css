@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Red+Hat+Display:wght@600&family=Ubuntu:wght@400;500;700&family=Unbounded:wght@400;500;700&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Unbounded', cursive; */
+
+/* General */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-bottom: 30px;
+    padding: 15px 0;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+/* Header */
+
+.header {
+    background-color: rgb(126, 144, 199);
+    border-bottom: 1px solid rgb(174, 185, 218);
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.container {
+    padding: 0px 30px;
+}
+
+.title-h1 {
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+/* Main */
+
+/* .content-back {
+    padding-top: 25px;
+    min-height: 600px;
+    margin: 0 auto;
+background-color: white;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    align-items: center;
+    padding: 10px;
+} */
+
+.slider {
+    padding: 50px;
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.images {
+    width: 400px;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn-wrapper {
+    padding: 15px 0;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+button {
+    color: white;
+    background-color: rgb(126, 144, 199);
+    width: 90px;
+    height: 40px;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+/* Footer */
+
+.footer-back {
+background-color: white;
+margin-top: auto;
+padding: 75px 0;
+}
+
+.footer-text {
+    text-align: center;
+}
